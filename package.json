@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "reveal-md ./content/ --static ./dist",
+    "dev": "npm i && reveal-md ./content/ --static ./dist",
     "build": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
